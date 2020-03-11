@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/home_24dp"/>
+
+    <item
+        android:id="@+id/nav_attendance"
+        android:title="Attendance"
+        android:icon="@drawable/attendance_24dp"/>
+
+    <item
+        android:id="@+id/nav_notes"
+        android:title="Notes"
+        android:icon="@drawable/notes_24dp"/>
+
+    <item
+        android:id="@+id/nav_contact"
+        android:title="Contact"
+        android:icon="@drawable/contact_24dp"/>
+</menu>

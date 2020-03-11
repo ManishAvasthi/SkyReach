@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sky Reach</string>
+    <string name="title_activity_bottom">Bottom</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    
+    <string name="navigation_drawer_open">Open_navigation_drawer</string>
+    <string name="navigation_drawer_close">Close_navigation_drawer</string>
+</resources>
