@@ -17,7 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Bottom_Navigation"/>
+        <activity android:name=".Bottom_Navigation" />
         <activity android:name=".Forget_Password" />
         <activity android:name=".Side_Navigation"
             android:theme="@style/AppTheme.NoActionBar"/>

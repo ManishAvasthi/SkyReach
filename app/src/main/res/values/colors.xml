@@ -6,4 +6,11 @@
     <color name="background">#3578FF</color>
     <color name="background_blue">#556F97</color>
     <color name="buttoncolor">#FFFF</color>
+    
+    <color name="black">#000000</color>
+    <color name="Dark_navy">#011A27</color>
+    <color name="Blueberry">#063852</color>
+    <color name="Shadow">#8a795d</color>
+    <color name="Deep_purple">#363237</color>
+    <color name="Indigo">#2D4262</color>
 </resources>
