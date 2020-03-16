@@ -17,10 +17,10 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 
+
 public class Side_Navigation extends AppCompatActivity {
     private DrawerLayout drawerLayout;
     BottomNavigationView bottomappbar;
-
     Fragment f=null;
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -80,10 +80,6 @@ public class Side_Navigation extends AppCompatActivity {
 
 
 
-
-
-
-
         //bottom
         bottomappbar=(BottomNavigationView) findViewById(R.id.bottom_navigation);
        bottomappbar.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -124,7 +120,6 @@ public class Side_Navigation extends AppCompatActivity {
         startActivity(i);
         finish();
     }
-
 
     private boolean loadFragment(Fragment fragment)
     {
