@@ -58,8 +58,8 @@ public class Side_Navigation extends AppCompatActivity {
                         f=new AboutusFragment();
                         break;
 
-                    case R.id.navdraw_developer:
-                        f=new DeveloperFragment();
+                    case R.id.navdraw_branches:
+                        f=new BranchesFragment();
                         break;
 
                     case R.id.navdraw_feed:
@@ -194,7 +194,7 @@ public class Side_Navigation extends AppCompatActivity {
                     break;
 
                 case R.id.navdraw_developer:
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new DeveloperFragment()).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new BranchesFragment()).commit();
                     break;
 
                 case R.id.navdraw_feed:

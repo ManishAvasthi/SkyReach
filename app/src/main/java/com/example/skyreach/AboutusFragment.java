@@ -16,9 +16,10 @@ public class AboutusFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v= inflater.inflate(R.layout.fragment_aboutus,container,false);
             textView =v.findViewById(R.id.text_about);
+            textView.setHorizontallyScrolling(true);
             textView.setSelected(true);
-            return v;
+             return v;
         }
 
-    }
+}
 

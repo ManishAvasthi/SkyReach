@@ -19,8 +19,11 @@
         android:layout_gravity="start"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
+        app:itemTextColor="@color/black"
+        app:itemIconTint="@color/black"
         app:headerLayout="@layout/navigationdrawer_header"
-        app:menu="@menu/side_navdrawer">
+        app:menu="@menu/side_navdrawer"
+        android:background="@color/buttoncolor">
 
     </com.google.android.material.navigation.NavigationView>
 

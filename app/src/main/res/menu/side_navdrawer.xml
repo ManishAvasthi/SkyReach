@@ -6,7 +6,7 @@
         <item
             android:id="@+id/navdraw_Achieve"
             android:title="Achievements"
-            android:icon="@drawable/achievements_24dp"/>
+            android:icon="@drawable/achievements_24dp" />
 
         <item
             android:id="@+id/navdraw_staff"
@@ -25,9 +25,9 @@
             android:icon="@drawable/admin_24dp"/>
 
         <item
-            android:id="@+id/navdraw_developer"
-            android:title="Developer"
-            android:icon="@drawable/developer_24dp"/>
+            android:id="@+id/navdraw_branches"
+            android:title="Branches"
+            android:icon="@drawable/branches_24dp"/>
 
         <item
             android:id="@+id/navdraw_about"
