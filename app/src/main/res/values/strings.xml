@@ -7,7 +7,7 @@
     
     <string name="navigation_drawer_open">Open_navigation_drawer</string>
     <string name="navigation_drawer_close">Close_navigation_drawer</string>
-    <string name="Description">Om Sir is the owner of Sky Reach classes. According to me
+    <string name="Description">Om Sir is the owner of Sky Reach classes. According to him
     Students’ life is the best time when you can learn so many unknown and interesting facts.
         But this time is sensitive too as they need proper guidance and interest on their subject.
          So, for the right guidance, you should need to join the coaching classes.
@@ -34,6 +34,18 @@
          \u2023 We conduct about 70 lectures per week at all our branches.\n\n
          \u2023 We have been producing H.S.C and S.S.C merit ranker\'s since 2008.\n\n
          \u2023 We conduct special lectures.
+    </string>
+    <string name="Vithalwadi">Vithalwadi\n
+        5/7,Near Kamaladevi college,vithalwadi(E),Kalyan-421306.
+    </string>
+    <string name="Kalamboli">Kalamboli\n
+    3rd Floor,F6-6,Sect,3EB/kalamboli(Post Office)-410218.
+    </string>
+    <string name="Titwala">Titwala\n
+    1st Floor,Room 4 Dixit Building\nNear Shiva Shakha and Holy Rose School Manpada Road,Titwala(E).
+    </string>
+    <string name="Kalyan">Kalyan East\n
+    Sahil Plaza,Near Gavdevi Road,Opposote Vighnharta Park,Hajimalang Road,Kalyan(E).
     </string>
 
 </resources>

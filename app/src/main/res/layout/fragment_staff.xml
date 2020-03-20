@@ -4,7 +4,8 @@
     android:id="@+id/scroll"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -25,7 +26,7 @@
         android:text="OM Sir                                       Head"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:padding="10dp"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:textColor="@color/background"
         />
     <TableRow
@@ -45,7 +46,7 @@
                                 Book Keeping"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:padding="10dp"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:textColor="@color/background"
         android:layout_below="@id/tr1"
         />
@@ -66,7 +67,7 @@
                                        OC"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:padding="10dp"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:textColor="@color/background"
         android:layout_below="@id/tr2"
         />
@@ -86,7 +87,7 @@
         android:text="OM Sir                                       Head"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:padding="10dp"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:textColor="@color/background"
         android:layout_below="@id/text3"
         />
@@ -106,7 +107,7 @@
         android:text="OM Sir                                         Head"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:padding="10dp"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:textColor="@color/background"
         android:layout_below="@id/tr4"
         />
@@ -127,7 +128,7 @@
         android:text="OM Sir                                       Head"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:padding="10dp"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:textColor="@color/background"
         android:layout_below="@id/tr5"
         />
@@ -147,9 +148,60 @@
         android:text="OM Sir                                         Head"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:padding="10dp"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:textColor="@color/background"
         android:layout_below="@id/tr6"
+        />
+
+    <TableRow
+        android:id="@+id/tr7"
+        android:layout_below="@id/text7"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFF"
+        android:backgroundTint="@color/background"
+        />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OM Sir                                         Head"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textColor="@color/background"
+        android:layout_below="@id/tr7"
+        />
+
+    <TableRow
+        android:id="@+id/tr8"
+        android:layout_below="@id/text8"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFF"
+        android:backgroundTint="@color/background"
+        />
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OM Sir                                         Head"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textColor="@color/background"
+        android:layout_below="@id/tr8"
+        />
+
+    <TableRow
+        android:id="@+id/tr9"
+        android:layout_below="@id/text9"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFF"
+        android:backgroundTint="@color/background"
         />
 
 

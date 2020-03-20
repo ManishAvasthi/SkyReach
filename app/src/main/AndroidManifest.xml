@@ -22,9 +22,9 @@
         <activity android:name=".Side_Navigation"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".Sign_in"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="fullSensor"/>
         <activity android:name=".signup"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="fullSensor"/>
 
     </application>
 

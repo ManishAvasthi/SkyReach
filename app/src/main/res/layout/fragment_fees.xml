@@ -1,15 +1,305 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+<TableLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black">
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical">
+    <TableRow android:background="@drawable/border"
+        android:padding="5dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Fees"
-        android:textSize="40sp"
-        android:layout_centerInParent="true"
+        <TextView
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Standard"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="Annual Fees(in Rupees)" />
 
-        />
-</RelativeLayout>
+    </TableRow>
+    <TableRow android:background="@drawable/border1" android:gravity="center" android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/background"
+            android:text="I" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/background"
+            android:text="5000/-" />
+
+    </TableRow>
+    <TableRow android:background="@drawable/border1" android:gravity="center" android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/background"
+            android:text="II" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:text="5000/-" />
+
+    </TableRow>
+    <TableRow android:background="@drawable/border1" android:gravity="center" android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="III" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="5000/-" />
+
+    </TableRow>
+    <TableRow android:background="@drawable/border1" android:gravity="center" android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="IV" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="5000/-" />
+
+    </TableRow>
+    <TableRow android:background="@drawable/border1" android:gravity="center" android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="V" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="8000/-" />
+
+    </TableRow>
+    <TableRow android:background="@drawable/border1" android:gravity="center" android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="VI" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="8000/-" />
+
+    </TableRow>
+    <TableRow android:background="@drawable/border1"  android:gravity="center" android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="VII" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/background"
+            android:text="8000/-" />
+
+    </TableRow>
+    <TableRow android:background="@drawable/border1"  android:gravity="center" android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="VIII" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/background"
+            android:text="15000/-" />
+
+    </TableRow>
+    <TableRow android:background="@drawable/border1"  android:gravity="center" android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/background"
+            android:text="IX" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/background"
+            android:text="20000/-" />
+    </TableRow>
+    <TableRow android:background="@drawable/border1"  android:gravity="center" android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="X" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="30000/-" />
+
+    </TableRow>
+    <TableRow android:background="@drawable/border1"  android:gravity="center" android:padding="5dp">
+
+        <TextView
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="XI Commerce"
+            android:textColor="@color/background"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="20000/-" />
+
+    </TableRow>
+    <TableRow android:background="@drawable/border1"  android:gravity="center" android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="XII Commerce"
+            android:textColor="@color/background"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="30000/-" />
+
+    </TableRow>
+    <TableRow android:background="@drawable/border1"  android:gravity="center" android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="XI Science" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="50000/-" />
+
+    </TableRow>
+    <TableRow android:background="@drawable/border1"  android:gravity="center" android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="XII Science" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:text="60000/-" />
+
+    </TableRow>
+</TableLayout>
+</ScrollView>

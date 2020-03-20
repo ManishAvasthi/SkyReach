@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_marginTop="50dp">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -6,10 +14,49 @@
     android:background="@color/black">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardBranchEmail"
+        app:cardBackgroundColor="@color/buttoncolor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="10dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textAlignment="center"
+            android:textSize="21sp"
+            android:id="@+id/ContactEmail"
+            android:textColor="#FF6347"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="skyreach@gmail.com"
+            android:paddingLeft="20dp"
+            android:layout_below="@id/ContactEmail"
+            android:textColor="@color/background"
+            android:textSize="20dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="20dp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardBranch1"
+        android:layout_below="@id/cardBranchEmail"
+        app:cardBackgroundColor="@color/buttoncolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="30dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp">
         <RelativeLayout
@@ -18,20 +65,173 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="JOJAN MATHAI"
-                android:textSize="20dp"
+                android:text="VITHALWADI BRANCH"
+                android:textAlignment="center"
+                android:textSize="21sp"
                 android:id="@+id/name"
+                android:textColor="#FF6347"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"/>
             <TextView
+                android:id="@+id/VNum1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="BI"
+                android:paddingLeft="20dp"
+                android:text="Mobile 1: 9763194086"
                 android:layout_below="@id/name"
+                android:textColor="@color/background"
                 android:textSize="20dp"
+                android:layout_marginTop="2dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile 2: 7303422422"
+                android:layout_below="@id/VNum1"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/background"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardBranch2"
+        android:layout_below="@id/cardBranch1"
+        app:cardBackgroundColor="@color/buttoncolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KALAMBOLI BRANCH"
+                android:textAlignment="center"
+                android:textSize="21sp"
+                android:id="@+id/KBranch"
+                android:textColor="#FF6347"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:id="@+id/KNum1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile 1: 8097388654"
+                android:layout_below="@id/KBranch"
+                android:textColor="@color/background"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="2dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile 2: 9920960936"
+                android:layout_below="@id/KNum1"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/background"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardBranch3"
+        android:layout_below="@id/cardBranch2"
+        app:cardBackgroundColor="@color/buttoncolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TITWALA BRANCH"
+                android:textAlignment="center"
+                android:textSize="21sp"
+                android:id="@+id/TBranch"
+                android:textColor="#FF6347"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:id="@+id/TNum1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile 1: 9029812452"
+                android:paddingLeft="20dp"
+                android:layout_below="@id/TBranch"
+                android:textColor="@color/background"
+                android:textSize="20dp"
+                android:layout_marginTop="2dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile 2: 9763194086"
+                android:layout_below="@id/TNum1"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/background"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/cardBranch3"
+        app:cardBackgroundColor="@color/buttoncolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KALYAN BRANCH"
+                android:textAlignment="center"
+                android:textSize="21sp"
+                android:id="@+id/KEBranch"
+                android:textColor="#FF6347"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+            <TextView
+                android:id="@+id/KENum1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile 1: 9763194086"
+                android:paddingLeft="20dp"
+                android:layout_below="@id/KEBranch"
+                android:textColor="@color/background"
+                android:textSize="20dp"
+                android:layout_marginTop="2dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile 2: 7303422422"
+                android:paddingLeft="20dp"
+                android:layout_below="@id/KENum1"
+                android:textSize="20dp"
+                android:textColor="@color/background"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="20dp"/>
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
+</ScrollView>
