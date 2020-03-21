@@ -15,11 +15,10 @@
         android:fadingEdge = "horizontal"
         android:marqueeRepeatLimit = "marquee_forever"
         android:scrollHorizontally = "true"
-        android:textColor = "@color/yellow"
+        android:textColor = "@color/background"
         android:text = " ABOUT US                                 "
         android:layout_height = "wrap_content"
-        android:singleLine = "true"
-        android:background="@color/Shadow"/>
+        android:singleLine = "true" />
 
 
     <TextView
