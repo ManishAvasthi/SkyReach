@@ -54,6 +54,10 @@ public class Side_Navigation extends AppCompatActivity {
                         f=new FeesFragment();
                         break;
 
+                    case R.id.navdraw_developer:
+                        f=new DeveloperFragment();
+                        break;
+
                     case R.id.navdraw_about:
                         f=new AboutusFragment();
                         break;

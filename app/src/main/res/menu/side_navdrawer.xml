@@ -20,9 +20,9 @@
             android:icon="@drawable/fees_24dp"/>
 
         <item
-            android:id="@+id/navdraw_admin"
-            android:title="Admin"
-            android:icon="@drawable/admin_24dp"/>
+            android:id="@+id/navdraw_developer"
+            android:title="Developer"
+            android:icon="@drawable/developer_24dp"/>
 
         <item
             android:id="@+id/navdraw_branches"

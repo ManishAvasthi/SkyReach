@@ -12,11 +12,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class FeedbackFragment extends Fragment {
     private EditText feedemail,subject,message;
     Button btn_send;
+    TextView textView;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -25,6 +27,9 @@ public class FeedbackFragment extends Fragment {
         subject=v.findViewById(R.id.feed_subject);
         message=v.findViewById(R.id.feed_message);
         btn_send=v.findViewById(R.id.btnFeedSend);
+        textView =v.findViewById(R.id.text_feedback);
+        textView.setHorizontallyScrolling(true);
+        textView.setSelected(true);
 
         btn_send.setOnClickListener(new View.OnClickListener() {
             @Override

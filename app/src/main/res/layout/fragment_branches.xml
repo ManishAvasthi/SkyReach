@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+<TextView
+    android:layout_marginTop="56dp"
+    android:id="@+id/text_branches"
+    android:textSize="40sp"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:ellipsize="marquee"
+    android:fadingEdge="horizontal"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:scrollHorizontally="true"
+    android:textColor="@color/background"
+    android:text="Branches                                       "
+    android:layout_height="wrap_content"
+    android:singleLine="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+
 <ScrollView android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:background="@color/black"
-    android:layout_marginTop="40dp">
+    android:layout_below="@id/text_branches">
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -16,7 +37,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="10dp"
-        android:layout_marginTop="25dp">
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -40,6 +63,8 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="10dp"
         android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_below="@id/card1">
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -64,6 +89,8 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="10dp"
         android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_below="@id/card2">
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -88,9 +115,9 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="10dp"
         android:layout_marginTop="25dp"
-        android:layout_below="@id/card3">
-<!--        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"-->
+        android:layout_below="@id/card3"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -110,3 +137,4 @@
 
 </RelativeLayout>
 </ScrollView>
+</RelativeLayout>
