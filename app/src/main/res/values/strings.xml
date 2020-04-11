@@ -7,7 +7,7 @@
 
     <string name="navigation_drawer_open">Open_navigation_drawer</string>
     <string name="navigation_drawer_close">Close_navigation_drawer</string>
-    <string name="Description">Om Sir is the owner of Sky Reach classes. According to him
+    <string name="Description" formatted="true">Om Sir is the owner of Sky Reach classes. According to him
     Students’ life is the best time when you can learn so many unknown and interesting facts.
         But this time is sensitive too as they need proper guidance and interest on their subject.
          So, for the right guidance, you should need to join the coaching classes.
@@ -26,17 +26,17 @@
 
 
     </string>
-    <string name="AboutUs" formatted="true">
+    <string name="AboutUs" formatted="true" translatable="true" >
         \u2023 12 successful years in the field of education.\n\n
          \u2023 We have accomplished an astonishing growth to thousand of students over the years.\n\n
          \u2023 There are 4 branches of Sky Reach Classes.\n\n
          \u2023 We have a staff of more than 70 people including teaching and non-teaching members.\n\n
          \u2023 We conduct about 70 lectures per week at all our branches.\n\n
          \u2023 We have been producing H.S.C and S.S.C merit ranker\'s since 2008.\n\n
-         \u2023 We conduct special lectures.
+        \u2023 We conduct special lectures.
     </string>
     <string name="Vithalwadi">Vithalwadi\n
-        5/7,Near Kamaladevi college,vithalwadi(E),Kalyan-421306.
+     5/7,Near Kamaladevi college,vithalwadi(E),Kalyan-421306.
     </string>
     <string name="Kalamboli">Kalamboli\n
     3rd Floor,F6-6,Sect,3EB/kalamboli(Post Office)-410218.

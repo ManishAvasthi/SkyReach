@@ -1,10 +1,11 @@
 package com.example.skyreach;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
+
 public class Bottom_Navigation extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,7 +16,9 @@ public class Bottom_Navigation extends AppCompatActivity {
         bnv.setOnNavigationItemSelectedListener(navListner);
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new HomeFragment()).commit();*/
     }
- /*   private BottomNavigationView.OnNavigationItemSelectedListener navListner =
+
+
+    /*   private BottomNavigationView.OnNavigationItemSelectedListener navListner =
             new BottomNavigationView.OnNavigationItemSelectedListener() {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {

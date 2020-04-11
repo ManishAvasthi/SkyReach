@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black">
-    <TextView
-        android:layout_marginTop="56dp"
+    <com.example.skyreach.ScrollTextView
+        android:layout_marginTop="54dp"
         android:id="@+id/text_fees"
         android:textSize="40sp"
         android:textStyle="bold"
@@ -15,19 +15,18 @@
         android:marqueeRepeatLimit="marquee_forever"
         android:scrollHorizontally="true"
         android:textColor="@color/background"
-        android:text="Fees                                       "
         android:layout_height="wrap_content"
-        android:singleLine="true"
-        xmlns:android="http://schemas.android.com/apk/res/android" />
+        android:singleLine="true" />
 <ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:layout_below="@id/text_fees"
+    android:padding="5dp"
+    android:layout_marginTop="5dp"
     android:orientation="vertical">
 <TableLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
     android:orientation="vertical">

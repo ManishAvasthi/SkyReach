@@ -17,11 +17,11 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 
-
 public class Side_Navigation extends AppCompatActivity {
     private DrawerLayout drawerLayout;
     BottomNavigationView bottomappbar;
     Fragment f=null;
+
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -139,7 +139,8 @@ public class Side_Navigation extends AppCompatActivity {
     public void onBackPressed () {
         if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
             drawerLayout.closeDrawer(GravityCompat.START);
-        } else {
+        }
+        else {
             super.onBackPressed();
         }
     }

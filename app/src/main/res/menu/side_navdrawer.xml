@@ -10,7 +10,7 @@
 
         <item
             android:id="@+id/navdraw_staff"
-            android:title="Staff"
+            android:title="Faculty"
             android:icon="@drawable/staff_24dp"
             />
 
@@ -18,11 +18,6 @@
             android:id="@+id/navdraw_fees"
             android:title="Fees"
             android:icon="@drawable/fees_24dp"/>
-
-        <item
-            android:id="@+id/navdraw_developer"
-            android:title="Developer"
-            android:icon="@drawable/developer_24dp"/>
 
         <item
             android:id="@+id/navdraw_branches"
@@ -33,6 +28,11 @@
             android:id="@+id/navdraw_about"
             android:title="About us"
             android:icon="@drawable/aboutus_24dp"/>
+
+        <item
+            android:id="@+id/navdraw_developer"
+            android:title="Developer"
+            android:icon="@drawable/developer_24dp"/>
 
         <item
             android:id="@+id/navdraw_feed"

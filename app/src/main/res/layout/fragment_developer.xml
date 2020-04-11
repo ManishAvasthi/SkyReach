@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@color/black">
 
-    <TextView
+    <com.example.skyreach.ScrollTextView
         android:layout_marginTop="56dp"
         android:id = "@+id/text_developedBy"
         android:textSize = "40sp"
@@ -15,7 +15,6 @@
         android:marqueeRepeatLimit = "marquee_forever"
         android:scrollHorizontally = "true"
         android:textColor = "@color/background"
-        android:text ="Developer                                       "
         android:layout_height = "wrap_content"
         android:singleLine = "true"
         />

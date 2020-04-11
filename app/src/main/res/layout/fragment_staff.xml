@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/black"
-    xmlns:tools="http://schemas.android.com/tools"
     tools:context=".StaffFragment">
 
-    <TextView
-        android:layout_marginTop="56dp"
+<com.example.skyreach.ScrollTextView
         android:id="@+id/text_staff"
-        android:textSize="40sp"
-        android:textStyle="bold"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
         android:ellipsize="marquee"
         android:fadingEdge="horizontal"
         android:marqueeRepeatLimit="marquee_forever"
         android:scrollHorizontally="true"
-        android:textColor="@color/background"
-        android:text="Staff                                       "
-        android:layout_height="wrap_content"
         android:singleLine="true"
-        xmlns:android="http://schemas.android.com/apk/res/android" />
+        android:textColor="@color/background"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/teaching_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/text_staff"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
         android:layout_marginTop="70sp"
-        android:layout_below="@id/text_staff"
+        android:layout_marginEnd="20dp"
         app:cardBackgroundColor="@color/buttoncolor"
         app:cardCornerRadius="10dp">
 
@@ -45,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:text="Teaching Staff"
+                android:text="Teaching Faculty"
                 android:textAlignment="center"
                 android:textColor="@color/background"
                 android:textSize="30sp" />
@@ -74,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:text="Non-Teaching Staff"
+                android:text="Non-Teaching Faculty"
                 android:textAlignment="center"
                 android:textColor="@color/background"
                 android:textSize="30sp" />

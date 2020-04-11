@@ -8,41 +8,54 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.provider.ContactsContract;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
+import java.util.Objects;
 
 public class NotesFragment extends Fragment {
-
+    ArrayList<Notes_List_Item> item;
+    DatabaseReference db;
+    NotesAdapter notesAdapter;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v= inflater.inflate(R.layout.fragment_notes,container,false);
-
         RecyclerView recyclerView=v.findViewById(R.id.Recycler_Notes);
-        Notes_List_Item[] item=new Notes_List_Item[]{
-                new Notes_List_Item("I STANDARD"),
-                new Notes_List_Item("II STANDARD"),
-                new Notes_List_Item("III STANDARD"),
-                new Notes_List_Item("IV STANDARD"),
-                new Notes_List_Item("V STANDARD"),
-                new Notes_List_Item("VI STANDARD"),
-                new Notes_List_Item("VII STANDARD"),
-                new Notes_List_Item("VIII STANDARD"),
-                new Notes_List_Item("IX STANDARD"),
-                new Notes_List_Item("X STANDARD"),
-                new Notes_List_Item("XI COMMERCE"),
-                new Notes_List_Item("XII COMMERCE"),
-                new Notes_List_Item("XI SCIENCE"),
-                new Notes_List_Item("XII SCIENCE"),
-        };
-
-        NotesAdapter notesAdapter=new NotesAdapter(item);
+       item=new ArrayList<>();
+        db= FirebaseDatabase.getInstance().getReference();
+        notesAdapter=new NotesAdapter(item,getContext());
         recyclerView.hasFixedSize();
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setAdapter(notesAdapter);
-        notesAdapter.update(item);
-        notesAdapter.notifyDataSetChanged();
+        db.child("Admin").child("Links").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                if(dataSnapshot.exists()){
+                    item.clear();
+                    for (DataSnapshot data :dataSnapshot.getChildren()){
+                        Notes_List_Item nt=new Notes_List_Item();
+                        nt.setStandard(Objects.requireNonNull(data.getKey().toString()));
+                      item.add(nt);
+
+                    }
+                    notesAdapter.update(item);
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
         return v;
     }
 }
